@@ -1,13 +1,13 @@
-New log file opened at Mon May 16 17:24:54 EDT 2016 by 4762@maxsquare-Dell-Precision-M3800
-Taking next connection to: 44336
-New client attempting to connect on port: 36544-44336
-  Address = /127.0.1.1:44336
-This client on port 36544 has uuid 60f3dfdf-a434-431e-8dd7-d4294bc38be1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-60f3dfdf-a434-431e-8dd7-d4294bc38be1
-Taking next connection to: 44336
-New client attempting to connect on port: 36546-44336
-  Address = /127.0.1.1:44336
-Handshake exception on socket: 36546
+New log file opened at Tue May 17 10:03:58 EDT 2016 by 16290@maxsquare-Dell-Precision-M3800
+Taking next connection to: 34816
+New client attempting to connect on port: 48960-34816
+  Address = /127.0.1.1:34816
+This client on port 48960 has uuid a5e57a31-526e-480d-835a-5b4d9370c577 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a5e57a31-526e-480d-835a-5b4d9370c577
+Taking next connection to: 34816
+New client attempting to connect on port: 48990-34816
+  Address = /127.0.1.1:34816
+Handshake exception on socket: 48990
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,51 +17,36 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 44336
-New client attempting to connect on port: 36548-44336
-  Address = /127.0.1.1:44336
-This client on port 36548 has uuid 9743bb14-12dc-47a9-9c74-bf03c46c7bbe configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-60f3dfdf-a434-431e-8dd7-d4294bc38be1, activator-9743bb14-12dc-47a9-9c74-bf03c46c7bbe
-Taking next connection to: 44336
-New client attempting to connect on port: 36552-44336
-  Address = /127.0.1.1:44336
-Handshake exception on socket: 36552
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.io.EOFException
-	at java.io.DataInputStream.readInt(DataInputStream.java:392)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 44336
-New client attempting to connect on port: 36554-44336
-  Address = /127.0.1.1:44336
-This client on port 36554 has uuid 8d11fbe0-f090-446b-9e22-b44bf8e226bd configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-60f3dfdf-a434-431e-8dd7-d4294bc38be1, play-fork-run-8d11fbe0-f090-446b-9e22-b44bf8e226bd
-Taking next connection to: 44336
+Taking next connection to: 34816
+New client attempting to connect on port: 48992-34816
+  Address = /127.0.1.1:34816
+This client on port 48992 has uuid fc6e019f-5729-4ff9-aff1-4861063dcc11 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a5e57a31-526e-480d-835a-5b4d9370c577, play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 44336
+Taking next connection to: 34816
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 34816

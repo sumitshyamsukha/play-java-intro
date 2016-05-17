@@ -5,7 +5,8 @@
 # Home page
 GET     /                           controllers.Application.index()
 GET     /hello                      controllers.Application.hello()
-GET     /hello/*name                controllers.Application.hello_name(name)
+GET     /test:text                  controllers.Application.test(text: String)
+GET     /hello/:name                controllers.Application.hello_name(name: String)
 GET     /error                      controllers.Application.error()
 GET     /bad                        controllers.Application.bad()
 GET     /file                       controllers.Application.redirect()

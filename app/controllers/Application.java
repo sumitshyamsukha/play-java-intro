@@ -20,6 +20,8 @@ public class Application extends Controller {
         return ok(index.render());
     }
 
+    public Result test(String text) { return ok(test.render(text)); }
+
     public Result hello() {
         return ok("hello, world!");
     }
