@@ -30,12 +30,6 @@ public class Application extends Controller {
         return ok("hello, " + name);
     }
 
-    public Result error() { return notFound("<h1> Page Not Found </h1>").as("text/html"); }
-
-    public Result bad() {
-        return internalServerError("Oops!");
-    }
-
     public Result redirect() {
         return redirect("/hello");
     }

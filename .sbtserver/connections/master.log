@@ -1,13 +1,13 @@
-New log file opened at Tue May 17 10:03:58 EDT 2016 by 16290@maxsquare-Dell-Precision-M3800
-Taking next connection to: 34816
-New client attempting to connect on port: 48960-34816
-  Address = /127.0.1.1:34816
-This client on port 48960 has uuid a5e57a31-526e-480d-835a-5b4d9370c577 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-a5e57a31-526e-480d-835a-5b4d9370c577
-Taking next connection to: 34816
-New client attempting to connect on port: 48990-34816
-  Address = /127.0.1.1:34816
-Handshake exception on socket: 48990
+New log file opened at Tue May 17 11:20:43 EDT 2016 by 22429@maxsquare-Dell-Precision-M3800
+Taking next connection to: 38617
+New client attempting to connect on port: 43288-38617
+  Address = /127.0.1.1:38617
+This client on port 43288 has uuid 49023040-8a5e-4707-a6f3-904e5a38d525 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-49023040-8a5e-4707-a6f3-904e5a38d525
+Taking next connection to: 38617
+New client attempting to connect on port: 43296-38617
+  Address = /127.0.1.1:38617
+Handshake exception on socket: 43296
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,67 +17,36 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 34816
-New client attempting to connect on port: 48992-34816
-  Address = /127.0.1.1:34816
-This client on port 48992 has uuid fc6e019f-5729-4ff9-aff1-4861063dcc11 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-a5e57a31-526e-480d-835a-5b4d9370c577, play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11
-Taking next connection to: 34816
+Taking next connection to: 38617
+New client attempting to connect on port: 43298-38617
+  Address = /127.0.1.1:38617
+This client on port 43298 has uuid 280bc862-6934-4e26-b102-f9dd605ce710 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-49023040-8a5e-4707-a6f3-904e5a38d525, play-fork-run-280bc862-6934-4e26-b102-f9dd605ce710
+Taking next connection to: 38617
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
+Taking next connection to: 38617
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
+Taking next connection to: 38617
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 34816
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-1 daemon clients are connected.
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 16290@maxsquare-Dell-Precision-M3800 logs at Tue May 17 10:58:18 EDT 2016, goodbye.
+Taking next connection to: 38617
+New client attempting to connect on port: 43938-38617
+  Address = /127.0.1.1:38617
+Handshake exception on socket: 43938
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 38617
+New client attempting to connect on port: 43940-38617
+  Address = /127.0.1.1:38617
+This client on port 43940 has uuid b3b43414-3716-4a55-9047-3152722db128 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-49023040-8a5e-4707-a6f3-904e5a38d525, play-fork-run-b3b43414-3716-4a55-9047-3152722db128
+Taking next connection to: 38617
