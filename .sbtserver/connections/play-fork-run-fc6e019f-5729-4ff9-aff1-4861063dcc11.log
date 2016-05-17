@@ -6559,3 +6559,7 @@ Sending msg to client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11: Backgr
 Sending msg to client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11: BackgroundJobLogEvent(1,LogMessage(info,p.a.d.HikariCPConnectionPool - datasource [default] bound to JNDI as DefaultDS))
 Sending msg to client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11: BackgroundJobLogEvent(1,LogMessage(info,p.a.d.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play))
 Sending msg to client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11: BackgroundJobLogEvent(1,LogMessage(info,play.api.Play - Application started (Dev)))
+Client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11 closed, java.net.SocketException: Socket closed, shutting down
+Client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-fc6e019f-5729-4ff9-aff1-4861063dcc11
+Closing the 16290@maxsquare-Dell-Precision-M3800 logs at Tue May 17 10:58:18 EDT 2016, goodbye.

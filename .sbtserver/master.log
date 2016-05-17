@@ -902,3 +902,10 @@ Copy resource mappings:
 Total time: 1 s, completed May 17, 2016 10:31:50 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 16290@maxsquare-Dell-Precision-M3800 logs at Tue May 17 10:58:18 EDT 2016, goodbye.
