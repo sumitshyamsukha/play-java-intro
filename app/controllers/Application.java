@@ -1,6 +1,8 @@
 package controllers;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import play.*;
+import play.libs.Json;
 import play.mvc.*;
 import play.db.jpa.*;
 import views.html.*;
@@ -24,6 +26,13 @@ public class Application extends Controller {
 
     public Result hello() {
         return ok("hello, world!");
+    }
+
+    // Set readOnly to true if method will be running only queries
+    @Transactional(readOnly = true)
+    public Result getJSON() {
+        List<Person> persons = (List<Person>) JPA.em().createQuery("select p from Person p").getResultList();
+        return ok(toJson(persons));
     }
 
     public Result hello_name(String name) {

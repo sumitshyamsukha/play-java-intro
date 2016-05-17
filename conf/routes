@@ -9,6 +9,7 @@ GET     /test:text                  controllers.Application.test(text: String)
 GET     /hello/:name                controllers.Application.hello_name(name: String)
 GET     /error                      controllers.Error.error()
 GET     /bad                        controllers.Error.bad()
+GET     /json                       controllers.Application.getJSON
 GET     /file                       controllers.Application.redirect()
 POST    /person                     controllers.Application.addPerson()
 GET     /persons                    controllers.Application.getPersons
