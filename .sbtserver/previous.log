@@ -1,5 +1,5 @@
-New log file opened at Tue May 17 11:20:33 EDT 2016 by 22298@maxsquare-Dell-Precision-M3800
-jvm 22298@maxsquare-Dell-Precision-M3800
+New log file opened at Tue May 17 13:04:29 EDT 2016 by 27461@maxsquare-Dell-Precision-M3800
+jvm 27461@maxsquare-Dell-Precision-M3800
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.91-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /home/maxsquare/play-java-intro/project, returning: (play-java-intro-build)
 Loading project definition from /home/maxsquare/play-java-intro/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@104935ef, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@187c9eb0, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -73,4 +73,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 22298@maxsquare-Dell-Precision-M3800 logs at Tue May 17 11:20:38 EDT 2016, goodbye.
+Closing the 27461@maxsquare-Dell-Precision-M3800 logs at Tue May 17 13:04:33 EDT 2016, goodbye.
